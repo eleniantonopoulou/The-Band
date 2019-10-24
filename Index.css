@@ -1,0 +1,48 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family:Helvetica, Arial, sans-serif;
+}
+
+.bg {
+  background-image: url("slide3.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  padding: 25px;
+}
+
+a      {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  text-decoration: none;
+  font-size: 19px;
+  line-height: 1px;
+  border-radius: 8px;
+}
+
+ a.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #white;
+  color: gray;
+
+}
+
+a.active {
+  background-color: gray;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
