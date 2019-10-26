@@ -1,8 +1,8 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family:Helvetica, Arial, sans-serif;
 }
+
 
 .bg {
   background-image: url("slide3.jpg");
@@ -11,9 +11,17 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.bg1 {
+  background-image: url("slide4.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-.header {
-  padding: 25px;
+.nav-myfont {
+  color: white;
+  font-size:35px;
 }
 
 a      {
@@ -22,27 +30,30 @@ a      {
   text-align: center;
   padding: 18px;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 1px;
   border-radius: 8px;
 }
+  a:hover {
+    background-color: #white;
+    color: gray;
+  }
 
- a.logo {
+.table-text {
+  background-color: #232325;
+  color: #f6a473;
+}
+.table-hover {
+  background-color: white;
+}
+.text-centered {
   font-size: 30px;
   font-weight: bold;
+  color: black;
+  text-align: center;
 }
-
-a:hover {
-  background-color: #white;
-  color: gray;
-
-}
-
-a.active {
-  background-color: gray;
-  color: white;
-}
-
-.header-right {
-  float: right;
+.h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #f6a473;
 }
